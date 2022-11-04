@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(189, 0, 54);
+
+}
+
+header {
+    width: auto;
+    height: auto;
+    /* Margen en blanco externo*/
+    margin: auto;
+    border-radius: 2%;
+
+
+}
+
+section {
+    width: auto;
+    height: auto;
+    background-color: rgb(83, 23, 65);
+    /* Color de letra */
+    color: white;
+    margin: auto;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial;
+}

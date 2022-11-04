@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Value</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <br>
+            <fieldset>
+                <legend>Rellene el Siguiente Formulario</legend><br>
+                1. Nombre: <input type="text" name="Nombre" placeholder="Inserta tu nombre completo" id="id1"><br>
+                2. Email: <input type="email" name="Email" placeholder="ejemplo@dominio.com" id="id2"><br>
+                3. Telefono: <input type="number" name="Telefono" placeholder="Ej. +951-12345678" id="id3"><br>
+                4. Pelicula favorita: <input type="text" name="Pelicula" id="id4"><br>
+                5. Actor o actriz favorito: <input type="text" name="Actor" id="id5"><br>
+                6. Serie favorita: <input type="text" name="Serie" id="id6"><br>
+            </fieldset>
+            <legend>-----------------------------------------</legend><br>
+            <fieldset>
+                <input type="button" onclick="mostrar_inputs()" value="Capturar">
+                <script type="text/javascript">
+                    function mostrar_inputs() {
+                        let id1 = document.getElementById("id1").value;
+                        let id2 = document.getElementById("id2").value;
+                        let id3 = document.getElementById("id3").value;
+                        let id4 = document.getElementById("id4").value;
+                        let id5 = document.getElementById("id5").value;
+                        let id6 = document.getElementById("id6").value;
+                        console.log(id1);
+                        console.log(id2);
+                        console.log(id3);
+                        console.log(id4);
+                        console.log(id5);
+                        console.log(id6);
+                    }
+                </script>
+            </fieldset>
+        </section>
+    </header>
+
+</body>
+
+</html>
